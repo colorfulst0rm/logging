@@ -1,0 +1,14 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "June P", email = "rjp2030@outlook.com"},
+]
+dependencies = [
+    "fastapi[all]>=0.101.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+
