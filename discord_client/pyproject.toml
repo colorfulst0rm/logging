@@ -7,8 +7,11 @@ authors = [
 ]
 dependencies = [
     "discord>=2.3.2",
+    "pocketbase>=0.9.1",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "BSD-3-Clause"}
 
+[tool.pdm.scripts]
+bot.cmd = "python -m src.logging_bot"
