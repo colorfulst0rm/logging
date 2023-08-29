@@ -1,3 +1,4 @@
 pocketbase
 go.sum
 pb_*
+logging
